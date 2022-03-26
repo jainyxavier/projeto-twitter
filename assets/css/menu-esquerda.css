@@ -1,0 +1,45 @@
+.menu-esquerda{
+    width: 100%;
+    max-width: 224px;   
+    margin-top: 16px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-esquerda .box-menu{
+    padding: 20px;
+}
+
+.menu-esquerda .menu-options{
+    width: 224px;
+    padding-top: 30px;
+}
+
+.menu-esquerda .menu-options .options{
+    margin-bottom: 35px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu-esquerda .menu-options span{
+    color: #1DA1F2;
+}
+
+.menu-esquerda .menu-options p{
+    font-size: 0.875rem;
+    color: white;
+}
+
+.menu-esquerda .btn-tweet{
+    width: Min(224px, 100%);
+    height: 50px;
+
+    border: unset;
+    border-radius: 30px;
+    background-color: #1DA1F2;
+    cursor: pointer;
+
+    color: white;
+    font-size: 0.875rem;
+}

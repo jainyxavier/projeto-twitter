@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+section{
+    width: 100%;
+    max-width: 510px;
+    border-left: 1px solid #2F3336;
+    border-right: 1px solid #2F3336;
+}
+
+main{
+    width: calc(100% - 30px);
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.line-header{
+    background-color: #15181C;
+    height: 8px;
+    width: 100%;
+    border: 1px solid #2F3336;
+    margin: 17px 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.line{
+    background-color: #2F3336;
+    height: 1px;
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    margin: 16px 0;
+}
+
+.logo-home{
+    display: flex;
+    gap: 10px;
+}
+
+.logo-home img{
+    display: none;
+}
